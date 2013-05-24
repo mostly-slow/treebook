@@ -14,7 +14,7 @@ class User < ActiveRecord::Base
   validates :last_name, :presence => true
   validates :profile_name, :presence => true, :uniqueness => true, 
             :format => { 
-                with: /\A[a-zA-Z\-\_]+\Z/,
+                with: /^[a-zA-Z0-9_-]+$/,
                 message:"is not the correct format"
             }
   validates :email, :presence => true
