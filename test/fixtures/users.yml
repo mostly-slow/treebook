@@ -4,3 +4,10 @@ asdf:
   profile_name: testy
   email: test@test.com
   encrypted_password: password123
+
+zxcv: 
+  first_name: charm
+  last_name: quark
+  profile_name: tester
+  email: tester@test.com
+  encrypted_password: password321
